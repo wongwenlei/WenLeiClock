@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EEF24D9B1C7AE6E6000AF191 /* mainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF24D9A1C7AE6E6000AF191 /* mainViewController.m */; };
+		EEF24D9E1C7AF3CC000AF191 /* editViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF24D9D1C7AF3CC000AF191 /* editViewController.m */; };
+		EEF24DA11C7AF3E4000AF191 /* setClockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEF24DA01C7AF3E4000AF191 /* setClockViewController.m */; };
+		EEFE3BEF1C7AC97500A5EE0B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EEFE3BEE1C7AC97500A5EE0B /* main.m */; };
+		EEFE3BF21C7AC97500A5EE0B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EEFE3BF11C7AC97500A5EE0B /* AppDelegate.m */; };
+		EEFE3BF51C7AC97500A5EE0B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EEFE3BF41C7AC97500A5EE0B /* ViewController.m */; };
+		EEFE3BF81C7AC97500A5EE0B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEFE3BF61C7AC97500A5EE0B /* Main.storyboard */; };
+		EEFE3BFA1C7AC97500A5EE0B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEFE3BF91C7AC97500A5EE0B /* Assets.xcassets */; };
+		EEFE3BFD1C7AC97500A5EE0B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEFE3BFB1C7AC97500A5EE0B /* LaunchScreen.storyboard */; };
+		EEFE3C081C7AC97500A5EE0B /* WenLeiClockUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EEFE3C071C7AC97500A5EE0B /* WenLeiClockUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EEFE3C041C7AC97500A5EE0B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EEFE3BE21C7AC97500A5EE0B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EEFE3BE91C7AC97500A5EE0B;
+			remoteInfo = WenLeiClock;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EEF24D991C7AE6E6000AF191 /* mainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mainViewController.h; sourceTree = "<group>"; };
+		EEF24D9A1C7AE6E6000AF191 /* mainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mainViewController.m; sourceTree = "<group>"; };
+		EEF24D9C1C7AF3CC000AF191 /* editViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = editViewController.h; sourceTree = "<group>"; };
+		EEF24D9D1C7AF3CC000AF191 /* editViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = editViewController.m; sourceTree = "<group>"; };
+		EEF24D9F1C7AF3E4000AF191 /* setClockViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = setClockViewController.h; sourceTree = "<group>"; };
+		EEF24DA01C7AF3E4000AF191 /* setClockViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = setClockViewController.m; sourceTree = "<group>"; };
+		EEFE3BEA1C7AC97500A5EE0B /* WenLeiClock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WenLeiClock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEFE3BEE1C7AC97500A5EE0B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EEFE3BF01C7AC97500A5EE0B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EEFE3BF11C7AC97500A5EE0B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EEFE3BF31C7AC97500A5EE0B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EEFE3BF41C7AC97500A5EE0B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EEFE3BF71C7AC97500A5EE0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EEFE3BF91C7AC97500A5EE0B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EEFE3BFC1C7AC97500A5EE0B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EEFE3BFE1C7AC97500A5EE0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEFE3C031C7AC97500A5EE0B /* WenLeiClockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WenLeiClockUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEFE3C071C7AC97500A5EE0B /* WenLeiClockUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WenLeiClockUITests.m; sourceTree = "<group>"; };
+		EEFE3C091C7AC97500A5EE0B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EEFE3BE71C7AC97500A5EE0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEFE3C001C7AC97500A5EE0B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EEFE3BE11C7AC97500A5EE0B = {
+			isa = PBXGroup;
+			children = (
+				EEFE3BEC1C7AC97500A5EE0B /* WenLeiClock */,
+				EEFE3C061C7AC97500A5EE0B /* WenLeiClockUITests */,
+				EEFE3BEB1C7AC97500A5EE0B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EEFE3BEB1C7AC97500A5EE0B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EEFE3BEA1C7AC97500A5EE0B /* WenLeiClock.app */,
+				EEFE3C031C7AC97500A5EE0B /* WenLeiClockUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EEFE3BEC1C7AC97500A5EE0B /* WenLeiClock */ = {
+			isa = PBXGroup;
+			children = (
+				EEFE3BF01C7AC97500A5EE0B /* AppDelegate.h */,
+				EEFE3BF11C7AC97500A5EE0B /* AppDelegate.m */,
+				EEFE3BF31C7AC97500A5EE0B /* ViewController.h */,
+				EEFE3BF41C7AC97500A5EE0B /* ViewController.m */,
+				EEFE3BF61C7AC97500A5EE0B /* Main.storyboard */,
+				EEF24D9C1C7AF3CC000AF191 /* editViewController.h */,
+				EEF24D9D1C7AF3CC000AF191 /* editViewController.m */,
+				EEF24D9F1C7AF3E4000AF191 /* setClockViewController.h */,
+				EEF24DA01C7AF3E4000AF191 /* setClockViewController.m */,
+				EEF24D991C7AE6E6000AF191 /* mainViewController.h */,
+				EEF24D9A1C7AE6E6000AF191 /* mainViewController.m */,
+				EEFE3BF91C7AC97500A5EE0B /* Assets.xcassets */,
+				EEFE3BFB1C7AC97500A5EE0B /* LaunchScreen.storyboard */,
+				EEFE3BFE1C7AC97500A5EE0B /* Info.plist */,
+				EEFE3BED1C7AC97500A5EE0B /* Supporting Files */,
+			);
+			path = WenLeiClock;
+			sourceTree = "<group>";
+		};
+		EEFE3BED1C7AC97500A5EE0B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EEFE3BEE1C7AC97500A5EE0B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EEFE3C061C7AC97500A5EE0B /* WenLeiClockUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EEFE3C071C7AC97500A5EE0B /* WenLeiClockUITests.m */,
+				EEFE3C091C7AC97500A5EE0B /* Info.plist */,
+			);
+			path = WenLeiClockUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EEFE3BE91C7AC97500A5EE0B /* WenLeiClock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEFE3C0C1C7AC97500A5EE0B /* Build configuration list for PBXNativeTarget "WenLeiClock" */;
+			buildPhases = (
+				EEFE3BE61C7AC97500A5EE0B /* Sources */,
+				EEFE3BE71C7AC97500A5EE0B /* Frameworks */,
+				EEFE3BE81C7AC97500A5EE0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WenLeiClock;
+			productName = WenLeiClock;
+			productReference = EEFE3BEA1C7AC97500A5EE0B /* WenLeiClock.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EEFE3C021C7AC97500A5EE0B /* WenLeiClockUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEFE3C0F1C7AC97500A5EE0B /* Build configuration list for PBXNativeTarget "WenLeiClockUITests" */;
+			buildPhases = (
+				EEFE3BFF1C7AC97500A5EE0B /* Sources */,
+				EEFE3C001C7AC97500A5EE0B /* Frameworks */,
+				EEFE3C011C7AC97500A5EE0B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EEFE3C051C7AC97500A5EE0B /* PBXTargetDependency */,
+			);
+			name = WenLeiClockUITests;
+			productName = WenLeiClockUITests;
+			productReference = EEFE3C031C7AC97500A5EE0B /* WenLeiClockUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EEFE3BE21C7AC97500A5EE0B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "WenLei Wang";
+				TargetAttributes = {
+					EEFE3BE91C7AC97500A5EE0B = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 352QFH5MA9;
+					};
+					EEFE3C021C7AC97500A5EE0B = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 352QFH5MA9;
+						TestTargetID = EEFE3BE91C7AC97500A5EE0B;
+					};
+				};
+			};
+			buildConfigurationList = EEFE3BE51C7AC97500A5EE0B /* Build configuration list for PBXProject "WenLeiClock" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EEFE3BE11C7AC97500A5EE0B;
+			productRefGroup = EEFE3BEB1C7AC97500A5EE0B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EEFE3BE91C7AC97500A5EE0B /* WenLeiClock */,
+				EEFE3C021C7AC97500A5EE0B /* WenLeiClockUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EEFE3BE81C7AC97500A5EE0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEFE3BFD1C7AC97500A5EE0B /* LaunchScreen.storyboard in Resources */,
+				EEFE3BFA1C7AC97500A5EE0B /* Assets.xcassets in Resources */,
+				EEFE3BF81C7AC97500A5EE0B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEFE3C011C7AC97500A5EE0B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EEFE3BE61C7AC97500A5EE0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEF24DA11C7AF3E4000AF191 /* setClockViewController.m in Sources */,
+				EEFE3BF51C7AC97500A5EE0B /* ViewController.m in Sources */,
+				EEFE3BF21C7AC97500A5EE0B /* AppDelegate.m in Sources */,
+				EEFE3BEF1C7AC97500A5EE0B /* main.m in Sources */,
+				EEF24D9B1C7AE6E6000AF191 /* mainViewController.m in Sources */,
+				EEF24D9E1C7AF3CC000AF191 /* editViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEFE3BFF1C7AC97500A5EE0B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEFE3C081C7AC97500A5EE0B /* WenLeiClockUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EEFE3C051C7AC97500A5EE0B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EEFE3BE91C7AC97500A5EE0B /* WenLeiClock */;
+			targetProxy = EEFE3C041C7AC97500A5EE0B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EEFE3BF61C7AC97500A5EE0B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEFE3BF71C7AC97500A5EE0B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EEFE3BFB1C7AC97500A5EE0B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EEFE3BFC1C7AC97500A5EE0B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EEFE3C0A1C7AC97500A5EE0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EEFE3C0B1C7AC97500A5EE0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EEFE3C0D1C7AC97500A5EE0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = WenLeiClock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WenLei.WenLeiClock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EEFE3C0E1C7AC97500A5EE0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = WenLeiClock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WenLei.WenLeiClock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EEFE3C101C7AC97500A5EE0B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WenLeiClockUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WenLei.WenLeiClockUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WenLeiClock;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		EEFE3C111C7AC97500A5EE0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WenLeiClockUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = WenLei.WenLeiClockUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WenLeiClock;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EEFE3BE51C7AC97500A5EE0B /* Build configuration list for PBXProject "WenLeiClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEFE3C0A1C7AC97500A5EE0B /* Debug */,
+				EEFE3C0B1C7AC97500A5EE0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEFE3C0C1C7AC97500A5EE0B /* Build configuration list for PBXNativeTarget "WenLeiClock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEFE3C0D1C7AC97500A5EE0B /* Debug */,
+				EEFE3C0E1C7AC97500A5EE0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEFE3C0F1C7AC97500A5EE0B /* Build configuration list for PBXNativeTarget "WenLeiClockUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEFE3C101C7AC97500A5EE0B /* Debug */,
+				EEFE3C111C7AC97500A5EE0B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EEFE3BE21C7AC97500A5EE0B /* Project object */;
+}
